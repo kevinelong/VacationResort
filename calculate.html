@@ -24,11 +24,68 @@
             </li>
         </ul>
     </nav>
-    
-    <label>
-        Check in Date:        
-        <input id="checkinDate" type="date">
-    </label>
-    <button id="calculate"> Calculate </button>
+
+
+<!-- enter their name and email -->
+<label>
+    name:        
+    <input id="name" type="text" name="name" min="1" required>
+</label>
+<label>
+    email:        
+    <input id="email" type="email" name="email" min="3" >
+</label>
+
+<!-- - select a check-in date -->
+<label>
+    Check in Date:        
+    <input id="checkinDate" type="date">
+</label>
+
+<!-- - specify a number of nights for the visit (1 - 28 days) -->
+<label>
+    specify a number of nights for the visit (1 - 28 days):        
+    <input id="nights" type="number" min="1" max="28">
+</label>
+
+<!-- - select a room type (use radio buttons that specify: Queen, King, 2-Bedroom Suite) -->
+room type:
+<label>
+    <input id="queen" name="room" type="radio">
+    Queen
+</label>
+<label>
+    <input id="king" name="room" type="radio">
+    King
+</label>
+<label>
+    <input id="suite" name="room" type="radio">
+    2-Bedroom Suite
+</label>
+
+<!-- - specify the number of adults (1 - 4) and number of children (0 - 4) that will stay in the room being reserved -->
+<label>
+    number of adults (1 - 4)
+    <input id="adults" type="number">
+</label>
+<label>
+    children (0 - 4) that will stay in the room being reserved:
+    <input id="children" type="number">
+</label>
+<!-- - select whether they will use any discounts (use radio buttons that specify: None, AAA/Senior (10%), and Military (20%)) -->
+<label>
+    <input id="none" name="discounts" type="radio">
+    None
+</label>
+<label>
+    <input id="senior" name="discounts" type="radio">
+    AAA/Senior (10%)
+</label>
+<label>
+    <input id="military" name="discounts" type="radio">
+    Military (20%)
+</label>
+<button id="calculate"> Calculate </button>
+
 </body>
 </html>

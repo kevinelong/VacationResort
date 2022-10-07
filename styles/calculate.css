@@ -1,0 +1,12 @@
+label {
+    display: block;
+    padding: 3px;
+}
+
+input {
+    display: block;
+}
+
+input[type=radio] {
+    display: inline;
+}

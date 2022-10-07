@@ -8,5 +8,5 @@ window.onload = init;// wait until body content/html loaded into the window.
 
 document.addEventListener("DOMContentLoaded", ()=>{ //BEGIN ANONYMOUS
     //INIT CODE GOES HERE
-    
+
 });
