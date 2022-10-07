@@ -1,0 +1,18 @@
+body{
+    font-family: sans-serif;
+}
+nav{
+    display: block;
+}
+nav li{
+    display:inline-block;
+    /* min-width: 20%; */
+}
+
+nav li a{
+    text-decoration: none;
+    color: goldenrod;
+    background-color: brown;
+    margin: 1px;
+    padding: 1em;
+}
